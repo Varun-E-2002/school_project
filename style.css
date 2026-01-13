@@ -1,0 +1,99 @@
+body{
+    
+    margin:0;
+    height: 100vh;
+    background-image: url("https://scontent.fmaa12-2.fna.fbcdn.net/v/t39.30808-6/486919236_1165111665407654_5470989272689635009_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=f727a1&_nc_ohc=iB2DcY7dFHwQ7kNvwEDcq28&_nc_oc=AdlXoNt7RjcTrvLZeqhxu82rIw-dqt-NfYHeCYUqtosLoUyM4dJW9WxbufrK1zjZxkfO4VUSIpyJG9gR-ZLGSkI7&_nc_zt=23&_nc_ht=scontent.fmaa12-2.fna&_nc_gid=AQMjkMbROWhVGMNho-xy2g&oh=00_Afk45wHBBqyInevbUJpKn6m2RRdIb6RRACKuDnkvO2js3w&oe=69571C1A");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: ;
+}
+.top-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 30px;
+    background: white;
+}
+.school-logo{
+    height:110px;
+}
+.right-top{
+    text-align:left;
+}
+.social-icons{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    margin-bottom:5px;
+}
+.icon{
+    width:50px;
+    height:50px;
+    border: 2px solid #090808;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.03s;
+}
+.facebook{background: #1877f2;}
+.youtube{background: #ff0000;}
+.instagram{background: #e1306c;}
+.twitter{background: #1da1f2;}
+
+.icon:hover{
+    background: #333;
+    color:white;
+    transform: scale(1.1);
+    filter: brightness(1.3);
+}
+.contact p{
+    margin:2px 0;
+    font-size: 14px;
+    color: #333;
+}
+.contact i{
+    color:#555;
+    margin-right: 5px;
+}
+
+.menu-bar ul{
+    list-style:none;
+    margin:0;
+    padding:17px;
+    display:flex;
+}
+.menu-bar ul li a {
+    border-right:2px solid rgba(246, 234, 234, 0.5)
+}
+.menu-bar ul li a{
+    display: block;
+    padding: 15px 37px;
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
+}
+.menu-bar ul li.active{
+    background: #d77a1f;
+}
+.menu-bar ul li:hover{
+    background: #ff0000;
+}
+.menu-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1px 10px;
+    background: rgb(177, 131, 46);
+}
+.slideshow img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+}
